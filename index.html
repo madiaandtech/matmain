@@ -15,7 +15,7 @@
      channel-url="https://madiaandtech.3cx.uk" 
      files-url="https://madiaandtech.3cx.uk" 
      minimized="true" 
-     animation-style="none" 
+     animation-style="slideUp" 
      party="adminoperator" 
      minimized-style="BubbleRight" 
      allow-call="true" 
@@ -41,16 +41,17 @@
      operator-icon="https://github.com/madiaandtech/matmain/blob/main/MAT%20Logo.png?raw=true" 
      button-icon="https://github.com/madiaandtech/matmain/blob/main/MAT%20Logo.png?raw=true" 
      button-icon-type="url" 
-     invite-message="Hello! How can we help you today?" 
-     authentication-message="Could we have your name and email?" 
+     invite-message="Hello! %NAME% How can we help you today?" 
+     authentication-message="To enter the live chat, please enter your name" 
      unavailable-message="We are away, leave us a message!" 
      offline-finish-message="We received your message and we'll contact you soon." 
-     ending-message="Your session is over. Please feel free to contact us again!" 
+     ending-message="Bye %NAME% your session is over. Please feel free to contact us again!" 
+     first-response-message="Thankj %NAME% please wait one moment, thank you %NAME%" 
      greeting-visibility="both" 
      greeting-message="Hey, we're here to help!" 
      greeting-offline-visibility="both" 
      greeting-offline-message="Hey, we're here to help!" 
-     chat-delay="2000" 
+     chat-delay="0" 
      offline-name-message="Could we have your name?" 
      offline-email-message="Could we have your email?" 
      offline-form-invalid-name="I'm sorry, the provided name is not valid." 
@@ -64,5 +65,4 @@
 
 
 <script defer src="https://cdn.3cx.com/livechat/v1/callus.js" id="tcx-callus-js"></script>
-     
 </body>
