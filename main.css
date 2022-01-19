@@ -14,13 +14,20 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 2em 2em 4em;
-    text-align: center;
+   
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
     line-height: 1.3;
+}
+
+.centertext {
+    text-align: center;
+    
+    
+    
 }
 
 h2 {
@@ -82,7 +89,9 @@ samp {
 }
 
 header {
+
   background: #55d6aa;
+    padding-bottom: 25
 }
 
 header::after {
@@ -176,4 +185,10 @@ img {
     article {
         color: aquamarine;
 
+    }
+    
+.vi {
+        color: aqua;
+        text-align: left;
+        
     }
